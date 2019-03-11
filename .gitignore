@@ -2,6 +2,7 @@
 HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+/static/
 
 ### STS ###
 .apt_generated
