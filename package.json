@@ -2,16 +2,53 @@
   "name": "transferdemo",
   "version": "1.0.0",
   "description": "initial packaging for front-end transferdemo",
-  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-route": "^1.7.8",
+    "angular-touch": "^1.7.8",
+    "angular-animate": "^1.7.8",
+    "angular-resource": "^1.7.8",
+    "bootstrap": "^4.3.1",
+    "angular-bootstrap": "^0.12.2",
+    "angular-utils-pagination": "^0.11.1",
+    "angular-mocks": "^1.7.8",
+    "@types/rest": "^1.3.28",
+    "rest": "^2.0.0"
+  },
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.7.8",
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-jsdoc": "^2.3.0",
+    "grunt-karma": "^3.0.1",
+    "karma": "^4.0.1",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "source-map-loader": "^0.2.4"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/richPurba/transferdemo.git"
   },
   "keywords": [
-    "transferdemo"
+    "angularjs",
+    "REST",
+    "Java",
+    "EE"
   ],
   "author": "richpurba",
   "license": "UNLICENSED",
